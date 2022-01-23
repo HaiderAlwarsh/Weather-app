@@ -1,4 +1,4 @@
-let APIURL = new URL('http://api.openweathermap.org/data/2.5/weather?');
+let APIURL = new URL('https://api.openweathermap.org/data/2.5/weather?');
 let APIKey = '9f559701852bb8b9a6b2f3b954186205';
 let cityName = document.querySelector('#cityName');
 let infoTxt = document.getElementsByClassName('info-txt')[0];
